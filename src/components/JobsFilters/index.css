@@ -1,0 +1,54 @@
+.JobsFiltersCon {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: flex-start;
+}
+
+.profileCon {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  padding: 10px;
+  width: 250px;
+  height: 220px;
+  margin-bottom: 20px;
+}
+
+.profileName {
+  color: #6366f1;
+  font-size: 18px;
+}
+.profileDes {
+  font-size: 14px;
+}
+.line {
+  width: 100%;
+}
+
+.typeOfEmployment {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+}
+.label {
+  color: #ffffff;
+  margin-left: 10px;
+  font-size: 12px;
+}
+
+.employmentListItem {
+  display: flex;
+  align-items: center;
+}
+
+.employmentInput {
+  height: 12px;
+  width: 12px;
+}
+.employmentCon {
+  list-style-type: none;
+  padding: 0px;
+  margin-top: 0px;
+}

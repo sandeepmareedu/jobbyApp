@@ -1,0 +1,55 @@
+.loginFormCon {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.formCon {
+  background-color: #272727;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.websiteLogo {
+  width: 150px;
+  align-self: center;
+  margin: 20px 0px 30px 0px;
+}
+.input {
+  border: 1px solid #64748b;
+  padding: 10px;
+  padding-left: 20px;
+  background-color: transparent;
+  border-radius: 4px;
+  width: 300px;
+  height: 35px;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+.label {
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 600;
+  margin: 5px 0px;
+}
+.btn {
+  background-color: #6366f1;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 13px;
+  color: #ffffff;
+  border: none;
+  height: 35px;
+  margin: 20px 0px 0px 0px;
+  cursor: pointer;
+}
+.errorMsg {
+  color: red;
+  margin: 0px;
+  font-size: 12px;
+}
